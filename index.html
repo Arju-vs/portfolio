@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CZ:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- animate.style -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <!-- logo -->
+             <img src="./images/logo.png" class="logo" alt="no image">
+             <!-- list -->
+              <ul>
+                <li class="listItems"><a href="#home" class="links">Home</a></li>
+                <li class="listItems"><a href="#about" class="links">About</a></li>
+                <li class="listItems"><a href="#skill" class="links">Skills</a></li>
+                <li class="listItems"><a href="#contact" class="links">Contact</a></li>
+              </ul>
+         </nav>
+         <!-- home -->
+          <section id="home">
+            <!-- content -->
+             <div class="homeContents">
+                <h1 class="animate__animated animate__backInDown" id="username">I'm Anna <span id="lname">Steel</span></h1>
+                <p id="userDetails">
+                    This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development.
+                </p>
+                <a id="download" href="">Download CV</a>
+             </div>
+             <!-- images  -->
+              <div class="homeImages">
+                <!-- shape -->
+                 <img src="./images/shape.png" alt="shape" class="group1" id="shape">
+                 <!-- girl -->
+                  <img src="./images/girl.png" alt="girl" class="group1" id="girl">
+              </div>
+          </section>
+          <!-- about -->
+           <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img src="./images/bg.jpeg" alt="about" class="img1">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem consectetur doloribus sit veritatis architecto cumque sequi alias perferendis voluptatem sed ipsum ipsam voluptates non magni, corrupti, id dolorum expedita a?
+                    Architecto nihil repellat autem velit ad commodi nulla, laudantium, rem exercitationem quibusdam eligendi eaque nobis facere atque corporis debitis provident, ullam reprehenderit. Dolorum incidunt corrupti molestias ea. Aperiam, modi praesentium!</p>
+                    <div class="informations">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Ana Steel</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9876543210</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>anasteel@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+           <!-- skills -->
+            <section id="skill">
+                <div class="sectionHead">
+                    <h2 class="mainHead">Skills</h2>
+                    <span class="subHead">My Skills</span>
+                </div>
+                <div class="skillContent">
+                    <div class="progressBars">
+                        <!-- html bar -->
+                         <div class="bars">
+                            <h3 class="barHead">HTML</h3>
+                            <span class="barPercent">91%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar htmlBar"></div>
+                         </div>
+                        <!-- css bar -->
+                        <div class="bars">
+                            <h3 class="barHead">CSS</h3>
+                            <span class="barPercent">85%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar cssBar"></div>
+                         </div>
+                        <!-- js bar -->
+                        <div class="bars">
+                            <h3 class="barHead">JS</h3>
+                            <span class="barPercent">86%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar jsBar"></div>
+                         </div>
+                        <!-- react bar  -->
+                        <div class="bars">
+                            <h3 class="barHead">REACT</h3>
+                            <span class="barPercent">89%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar reactBar"></div>
+                         </div>
+                    </div>
+                    <div data-aos="fade-left" class="skilling">
+                        <img src="./images/skills.jpg" alt="skills" class="img2">
+                    </div>
+                </div>
+            </section>
+            <!-- contact -->
+             <section id="contact">
+                <div class="sectionHead">
+                    <h2 class="mainHead">Contact</h2>
+                    <span class="subHead">My Contacts</span>
+                </div>
+                <div class="iconCollection">
+                    <!-- linkedin -->
+                     <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                     </div>
+                    <!-- facebook -->
+                     <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                     </div>
+                    <!-- whatsapp -->
+                    <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                     </div>
+                    <!-- github -->
+                    <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                     </div>
+                    <!-- instagram -->
+                    <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                     </div>
+                    <!-- discord -->
+                    <div class="icon">
+                        <a href="" target="_blank"><i class="fa-brands fa-discord brands"></i></a>
+                     </div>
+                </div>
+             </section>
+            <!-- footer -->
+             <footer>
+                <p id="copyright">&copy; My Portfolio Website - JULY 2024, All Rights Reserved to &reg; Ana Steel</p>
+                <div class="icon upArrow">
+                    <a href="#container"><i class="fa-solid fa-angle-up brands"></i></i></a>
+                 </div>
+             </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
